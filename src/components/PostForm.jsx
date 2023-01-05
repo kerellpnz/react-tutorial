@@ -35,7 +35,7 @@ const PostForm = ({create}) => {
                 disabled
                 ref = {bodyInputRef}
                 type="text"
-                placeholder="Post description"
+                placeholder="Post description (uncontrolled component)"
             />
             <MyButton onClick={addNewPost}>Create post</MyButton>
         </form>
